@@ -1,89 +1,101 @@
 {
   "cache_time": 7200,
   "api_site": {
-    "dyttzy": {
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-      "name": "电影天堂资源",
-      "detail": "http://caiji.dyttzyapi.com"
-    },
-    "heimuer": {
-      "api": "https://json.heimuer.xyz/api.php/provide/vod",
-      "name": "黑木耳",
-      "detail": "https://heimuer.tv"
-    },
-    "ruyi": {
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "name": "如意资源"
-    },
-    "fengchao": {
-      "api": "https://api.fczy888.me/api.php/provide/vod",
-      "name": "蜂巢片库"
-    },
-    "bfzy": {
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "name": "暴风资源"
-    },
-    "tyyszy": {
-      "api": "https://tyyszy.com/api.php/provide/vod",
-      "name": "天涯资源"
-    },
-    "ffzy": {
-      "api": "http://ffzy5.tv/api.php/provide/vod",
-      "name": "非凡影视",
-      "detail": "http://ffzy5.tv"
-    },
-    "zy360": {
-      "api": "https://360zy.com/api.php/provide/vod",
-      "name": "360资源"
-    },
-    "iqiyi": {
-      "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
-      "name": "iqiyi资源"
-    },
-    "wolong": {
-      "api": "https://wolongzyw.com/api.php/provide/vod",
-      "name": "卧龙资源"
-    },
-    "jisu": {
-      "api": "https://jszyapi.com/api.php/provide/vod",
-      "name": "极速资源",
-      "detail": "https://jszyapi.com"
-    },
-    "dbzy": {
-      "api": "https://dbzy.tv/api.php/provide/vod",
-      "name": "豆瓣资源"
-    },
-    "mozhua": {
-      "api": "https://mozhuazy.com/api.php/provide/vod",
-      "name": "魔爪资源"
-    },
-    "mdzy": {
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
-      "name": "魔都资源"
-    },
-    "zuid": {
-      "api": "https://api.zuidapi.com/api.php/provide/vod",
-      "name": "最大资源"
-    },
-    "yinghua": {
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "name": "樱花资源"
-    },
-    "wujin": {
-      "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "name": "无尽资源"
-    },
-    "wwzy": {
-      "api": "https://wwzy.tv/api.php/provide/vod",
-      "name": "旺旺短剧"
-    },
-    "haohua": {
-      "api": "https://hhzyapi.com/api.php/provide/vod",
-      "name": "豪华资源"
-    },
-    "ikun": {
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "name": "iKun资源"
-    }
+   "filmkub": {
+    "api": "http://api.filmkub.com/v1",
+    "name": "基本影视仓官方接口",
+    "detail": "http://api.filmkub.com",
+    "note": "资源更新及时，支持4K解析"
+  },
+  "tiantiankaixin_main": {
+    "api": "http://rihou.cc:51/天天开心",
+    "name": "天天开心主线接口",
+    "detail": "http://rihou.cc:51",
+    "note": "长期维护的热门接口"
+  },
+  "tiantiankaixin_backup": {
+    "api": "http://rihou.vip:51/天天开心",
+    "name": "天天开心备线",
+    "detail": "http://rihou.vip:51",
+    "note": "主线路备用"
+  },
+  "fm168": {
+    "api": "http://8.210.232.168/fm/1.json",
+    "name": "影视仓接口1",
+    "detail": "http://8.210.232.168",
+    "note": "通用单仓接口"
+  },
+  "tvkj_svip": {
+    "api": "https://tvkj.top/DC/ysc/tvkj/svip.json",
+    "name": "影视仓接口2",
+    "detail": "https://tvkj.top",
+    "note": "包含直播源"
+  },
+  "yl_pytv": {
+    "api": "https://agit.ai/cyl518/yl/raw/branch/master/pytv.json",
+    "name": "影视仓接口3",
+    "detail": "https://agit.ai/cyl518/yl",
+    "note": "Python爬虫源"
+  },
+  "yoursmile_xc": {
+    "api": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+    "name": "影视仓接口4",
+    "detail": "https://agit.ai/Yoursmile7/TVBox",
+    "note": "社区维护接口"
+  },
+  "xmbjm": {
+    "api": "https://gh.con.sh/https://raw.githubusercontent.com/xmbjm/xmbjm/main/xmbjmdc.json",
+    "name": "影视仓接口5",
+    "detail": "https://github.com/xmbjm/xmbjm",
+    "note": "GitHub加速镜像"
+  },
+  "thgyck": {
+    "api": "https://codeberg.org/ztha/tvbox/raw/branch/main/thgyck.json",
+    "name": "挺好观影仓库",
+    "detail": "https://codeberg.org/ztha/tvbox",
+    "note": "测试接口"
+  },
+  "tianwei": {
+    "api": "https://gitee.com/tv888/tv/raw/master/svip.json",
+    "name": "天微影视",
+    "detail": "https://gitee.com/tv888/tv",
+    "note": "Gitee托管"
+  },
+  "xiaonaofu": {
+    "api": "https://gitee.com/hyxuan_admin/xnf/raw/master/xnfx.json",
+    "name": "小脑斧接口",
+    "detail": "https://gitee.com/hyxuan_admin/xnf",
+    "note": "个人维护源"
+  },
+  "baohehui": {
+    "api": "http://64.112.42.49:1688/https://raw.githubusercontent.com/guot55/yg/main/pg/jsm.json",
+    "name": "宝盒汇接口",
+    "detail": "https://github.com/guot55/yg",
+    "note": "多线路聚合"
+  },
+  "hengxing": {
+    "api": "http://恒星.net/ZC.json",
+    "name": "恒星仓库",
+    "detail": "http://恒星.net",
+    "note": "中文域名接口"
+  },
+  "freed_yuanhsing": {
+    "api": "https://freed.yuanhsing.cf/TVBox/meowcf.json",
+    "name": "Freed元兴仓库",
+    "detail": "https://freed.yuanhsing.cf",
+    "note": "社区知名源"
+  },
+  "yunshuche": {
+    "api": "https://weixine.net/ysc.json",
+    "name": "运输车仓库",
+    "detail": "https://weixine.net",
+    "note": "主线稳定源"
+  },
+  "jundie": {
+    "api": "http://home.jundie.top:81/top98.json",
+    "name": "俊佬仓库",
+    "detail": "http://home.jundie.top:81",
+    "note": "长期维护"
+  }
   }
 }
